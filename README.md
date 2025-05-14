@@ -7,7 +7,19 @@ This repository contains the complete code and datasets used for the project **"
 ---
 
 ## 📁 Repository Structure
-
+initial:
+```
+.
+├── code.ipynb                   # Main Python notebook for data processing and analysis
+├── dataset/                     # Dataset folder (compressed files)
+│   ├── drugsComTest_raw.zip     # Main test dataset (required for running code.ipynb)
+│   └── archive.zip              # Contains full datasets (optional)
+│       ├── drugsComTest_raw.tsv
+│       ├── drugsComTrain_raw.tsv
+│       └── textsentiment.csv
+└── README.md                    # Documentation (you are here)
+```
+After run
 ```
 .
 ├── code.ipynb                   # Main Python notebook for data processing and analysis
@@ -60,7 +72,7 @@ After successful execution, the following folders will be generated:
 
 * Contains:
 
-  * `positive.txt`, `negative.txt`, and `neutral.txt` for import into Sketch Engine
+  * `positive_reviews.txt`, `negative_reviews.txt`, and `neutral_reviews.txt` for import into Sketch Engine
   * A short tutorial explaining how to use these files in Sketch Engine
 
 ### `weka_data/`
@@ -84,7 +96,7 @@ After successful execution, the following folders will be generated:
 | File                    | Description                                            |
 | ----------------------- | ------------------------------------------------------ |
 | `drugsComTest_raw.tsv`  | Drug reviews test dataset                              |
-| `drugsComTrain_raw.tsv` | Training dataset (optional for advanced customization) |
+| `drugsComTrain_raw.tsv` | Training dataset                                       |
 | `textsentiment.csv`     | Additional labeled dataset for sentiment analysis      |
 
 ---
@@ -104,8 +116,8 @@ After successful execution, the following folders will be generated:
 
 ## 📋 License and Credits
 
-This project is part of the coursework for the **XJCO2121 Data Mining** module at **SWJTU-Leeds Joint School**. Data originally sourced from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29).
+This project is part of the coursework for the **XJCO2121 Data Mining** module at **SWJTU-Leeds Joint School**. Data originally sourced from [Drug Review Prediction]([https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29](https://www.kaggle.com/datasets/oladayoowoeye/drug-review-prediction-sentiment-analysis?select=drugsComTest_raw.tsv)).
 
 ---
 
-如需我为你生成 `.md` 格式的完整文件，或者需要英文/中英双语版，也可以告诉我。
+
