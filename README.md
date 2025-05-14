@@ -116,7 +116,7 @@ After successful execution, the following folders will be generated:
 
 ## 📋 License and Credits
 
-This project is part of the coursework for the **XJCO2121 Data Mining** module at **SWJTU-Leeds Joint School**. Data originally sourced from [Drug Review Prediction]([https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29](https://www.kaggle.com/datasets/oladayoowoeye/drug-review-prediction-sentiment-analysis?select=drugsComTest_raw.tsv)).
+This project is part of the coursework for the **XJCO2121 Data Mining** module at **SWJTU-Leeds Joint School**. Data originally sourced from [Drug Review Prediction](https://www.kaggle.com/datasets/oladayoowoeye/drug-review-prediction-sentiment-analysis?select=drugsComTest_raw.tsv).
 
 ---
 
